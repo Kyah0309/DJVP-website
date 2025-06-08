@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Group Project Report</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh;
+    }
+    aside {
+      width: 220px;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    }
+    aside h1 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+    aside nav a {
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: #555;
+      font-weight: 600;
+    }
+    main {
+      flex: 1;
+      background: #f8f8f8;
+      padding: 30px;
+      overflow-y: auto;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+    }
+    .hero h2 {
+      font-size: 2rem;
+    }
+    .description {
+      margin-top: 10px;
+      font-style: italic;
+      text-align: center;
+    }
+    .section-title {
+      margin-top: 40px;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #880E4F;
+      text-align: center;
+    }
+    .name-group {
+      text-align: center;
+      margin: 10px 0;
+      font-style: italic;
+    }
+    .progress-report {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+    }
+    .progress-report h3 {
+      color: #1E40AF;
+      margin-bottom: 10px;
+    }
+    .progress-report p {
+      margin: 6px 0;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <aside>
+    <h1>DJVP</h1> <!-- LABEL: Sidebar Project Title -->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">History</a>
+      <a href="#">Team</a>
+      <a href="#">FAQ</a>
+    </nav>
+  </aside>
+  <main>
+    <div class="hero">
+      <div>
+        <h2>DJVP</h2> <!-- LABEL: Group Project Name -->
+        <div class="description">Development of an IOT Based Sulfur Dioxide Monitoring With Notification System</div> <!-- LABEL: Project Description -->
+      </div>
+    </div>
+
+    <div class="section-title">Individual Progress Report</div>
+    <div class="name-group">
+      Your Name (Deatras, Alfredo D) <br/>
+      DJVP <!-- LABEL: Name and Group Code -->
+    </div>
+
+    <!-- Progress Report Entries Start -->
+    <details class="progress-report" open>
+      <summary>Progress Report 1</summary>
+      <p><strong>Date Covered:</strong> 11-14-21-28</p>
+      <p><strong>Accomplished:</strong> We held a meeting and discuss upon the group what project should we create, what materials we will need, Ordered the materials. </p>
+      <p><strong>Not Accomplished:</strong> (based on the timeline) Prototype papers, prototype design, Prototype Wireframe, Prototype Dimensions and Procedures</p>
+    </details>
+
+    <details class="progress-report">
+      <summary>Progress Report 2</summary>
+      <p><strong>Date Covered:</strong>  November 4 to march 31</p>
+      <p><strong>Accomplished:</strong> < We created the protoype, prototype documents, 
+                                                    Firmware and user interface design and 
+                                                    refurnish of the system</p>
+      <p><strong>Not Accomplished:</strong> (based on the timeline) < Real world testing, 
+                                                                       thirdparty testing for accuracy testing </p>
+    </details>
+
+    <details class="progress-report">
+      <summary>Progress Report 3</summary>
+      <p><strong>Date Covered:</strong> < April 7 to May 5 2025  </p>
+      <p><strong>Accomplished:</strong>< Deployment of the protoype to the testing field. 
+        THe team presented the so2 monitoring and successfully defended the thesis</p>
+      <p><strong>Not Accomplished:</strong> (based on the timeline) < Minor corrections from comments </p>
+    </details>
+    <!-- Progress Report Entries End -->
+  </main>
+</body>
+</html>
